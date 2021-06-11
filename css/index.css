@@ -2,13 +2,14 @@
 
 :root {
     font-family: 'Secular One', sans-serif;
-    font-size: 20px;
-    background-color: grey;
+
 }
 #home {
     background-image: url(../img/background-img/headcoffe.jpg);
     background-size: cover;
     display: flex;
+    font-size: 20px;
+    background-color: grey;
     
 
 }
@@ -64,4 +65,14 @@ header nav .logo-icon {
     }
     header .social {
       display: flex;
+    }
+
+    h1 {
+        font-family: 'Fredoka One', cursive;
+    }
+    body {
+        background-color: #d2a679;
+    }
+    .info article {
+background-image: url(../img/beige.jpg);
     }
