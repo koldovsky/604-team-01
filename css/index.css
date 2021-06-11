@@ -2,6 +2,66 @@
 
 :root {
     font-family: 'Secular One', sans-serif;
-    h1 {
-        font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    background-color: grey;
+}
+#home {
+    background-image: url(../img/background-img/headcoffe.jpg);
+    background-size: cover;
+    display: flex;
+    
+
+}
+.banner {
+min-height: 100px;
+margin-top: 10%;
+margin-bottom: 10%;
+
+
+color:white;
+}
+
+
+.informationlogo {
+    text-transform: undeercase;
+    text-align: center;
+
+
+}
+header nav .logo-icon {
+    display: flex;
+    height: 44px;
+    width: 176px;
+  }
+  
+  header nav .menu a {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-decoration: unset;
+  }
+  
+  header .social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav .social a {
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    border: 15px;
+    margin: 10px;
+  }
+  
+  
+
+    header .menu {
+      display: flex;
+    }
+    header .social {
+      display: flex;
     }
