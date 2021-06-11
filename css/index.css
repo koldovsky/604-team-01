@@ -2,6 +2,13 @@
 
 :root {
     font-family: 'Secular One', sans-serif;
+}
     h1 {
         font-family: 'Fredoka One', cursive;
+    }
+    body {
+        background-color: #d2a679;
+    }
+    .info article {
+background-image: url(../img/beige.jpg);
     }
