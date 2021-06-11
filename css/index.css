@@ -73,6 +73,26 @@ header nav .logo-icon {
     body {
         background-color: #d2a679;
     }
-    .info article {
+    .button {
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #996b37;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        transition: color 0.7s;
+        background-color: #734d26;
+              }
+      .button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+  }
+  .info .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+      .info article {
 background-image: url(../img/beige.jpg);
-    }
+      }
