@@ -95,4 +95,6 @@ header nav .logo-icon {
   }
       .info article {
 background-image: url(../img/beige.jpg);
+background-repeat: no-repeat;
+background-size:cover;
       }
