@@ -98,3 +98,9 @@ background-image: url(../img/beige.jpg);
 background-repeat: no-repeat;
 background-size:cover;
       }
+     .style {
+       position: absolute;
+       color: black;
+       font-size: 2em;
+       
+     } 
