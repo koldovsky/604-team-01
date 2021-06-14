@@ -98,4 +98,8 @@ background-image: url(../img/beige.jpg);
 background-repeat: no-repeat;
 background-size:cover;
       }
+            .taste {
+        position: absolute;
+        color: green;
+              }
      
