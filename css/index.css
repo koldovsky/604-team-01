@@ -99,7 +99,17 @@ background-repeat: no-repeat;
 background-size:cover;
       }
             .taste {
-        position: absolute;
-        color: green;
-              }
+        position: relative;
+        text-align: center;
+        background-image: url(../img/wood.jpg);
+                                  }
+             h2 {
+                position: absolute;
+                color: black;
+                font-size: 30px;
+                padding-top: 30px;
+                padding-left: 30px;
+               display: flex;
+               justify-content: place-around;
+                             }
      
