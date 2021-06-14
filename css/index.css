@@ -112,3 +112,7 @@ h2 {
   display: flex;
   justify-content: place-around;
 }
+
+.drip-grind {
+  color: #ffd832;
+}
