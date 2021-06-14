@@ -1,115 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap');
 
 :root {
-    font-family: 'Secular One', sans-serif;
-
+  font-family: 'Secular One', sans-serif;
 }
+
 #home {
-    background-image: url(../img/background-img/headcoffe.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 20px;
-    background-color: grey;
-    
-
+  background-image: url(../img/background-img/headcoffe.jpg);
+  background-size: cover;
+  display: flex;
+  font-size: 20px;
+  background-color: grey;
 }
+
 .banner {
-min-height: 100px;
-margin-top: 10%;
-margin-bottom: 10%;
-
-
-color:white;
+  min-height: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color:white;
 }
-
 
 .informationlogo {
-    text-transform: undeercase;
-    text-align: center;
-
-
+  text-transform: undeercase;
+  text-align: center;
 }
+
 header nav .logo-icon {
-    display: flex;
-    height: 44px;
-    width: 176px;
-  }
-  
-  header nav .menu a {
-    display: block;
-    font-size: 16px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    margin: 10px;
-    text-decoration: unset;
-  }
-  
-  header .social {
-    display: flex;
-    justify-content: center;
-  }
-  
-  header nav .social a {
-    height: 20px;
-    width: 20px;
-    padding: 0px;
-    border: 15px;
-    margin: 10px;
-  }
-  
-  
+  display: flex;
+  height: 44px;
+  width: 176px;
+}
 
-    header .menu {
-      display: flex;
-    }
-    header .social {
-      display: flex;
-    }
+header nav .menu a {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  text-decoration: unset;
+}
 
-    h1 {
-        font-family: 'Fredoka One', cursive;
-    }
-    body {
-        background-color: #d2a679;
-    }
-    .button {
-        padding: 0.35em 1.2em;
-        border: 0.1em solid #996b37;
-        margin: 0 0.3em 0.3em 0;
-        border-radius: 0.12em;
-        color: #ffffff;
-        text-decoration: none;
-        text-align: center;
-        transition: color 0.7s;
-        background-color: #734d26;
-              }
-      .button:hover {
+header .social {
+  display: flex;
+  justify-content: center;
+}
+
+header nav .social a {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  border: 15px;
+  margin: 10px;
+}
+
+header .menu {
+  display: flex;
+}
+
+header .social {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+}
+
+body {
+   background-color: #d2a679;
+}
+
+.button {
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #996b37;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  transition: color 0.7s;
+  background-color: #734d26;
+}
+
+.button:hover {
   color: #000000;
   background-color: #ffffff;
   cursor: pointer;
-  }
-  .info .buttons {
-    display: flex;
-    justify-content: space-around;
-  }
-      .info article {
-background-image: url(../img/beige.jpg);
-background-repeat: no-repeat;
-background-size:cover;
-      }
-            .taste {
-        position: relative;
-        text-align: center;
-        background-image: url(../img/wood.jpg);
-                                  }
-             h2 {
-                position: absolute;
-                color: black;
-                font-size: 30px;
-                padding-top: 30px;
-                padding-left: 30px;
-               display: flex;
-               justify-content: place-around;
-                             }
-     
+}
+
+.info .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info article {
+  background-image: url(../img/beige.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.taste {
+  position: relative;
+  text-align: center;
+  background-image: url(../img/wood.jpg);
+}
+
+h2 {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: place-around;
+}
