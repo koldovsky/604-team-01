@@ -59,6 +59,26 @@ header .menu {
 
 header .social {
   display: flex;
+  justify-content: center;
+  color: white;
+}
+
+header nav .social a {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  border: 15px;
+  margin: 10px;
+  color: white;
+}
+
+header .menu {
+  display: flex;
+}
+
+header .social {
+  display: flex;
+  color: white;
 }
 
 h1 {
@@ -104,7 +124,7 @@ body {
   background-image: url(../img/wood.jpg);
 }
 
-h2 {
+/* h2 {
   position: absolute;
   color: black;
   font-size: 30px;
