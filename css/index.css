@@ -1,40 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap'); :root {
-  font-family: 'Secular One', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+:root {
+  font-family: 'Secular One', sans-serif;
 }
 
 #home {
   background-image: url(../img/background-img/headcoffe.jpg);
   background-size: cover;
+  display: flex;
   font-size: 20px;
   background-color: grey;
-}
-@media (min-width: 550px) {
-  heder nav{
-    display: flex;
-  }
-}
-
-header {
-  padding: 5px;
-}
-
-.container {
-    max-width: 980px;
-    margin: auto;
-
 }
 
 .banner {
   min-height: 100px;
   margin-top: 10%;
   margin-bottom: 10%;
-  color: white;
+  color:white;
 }
 
 .informationlogo {
@@ -56,6 +38,23 @@ header nav .menu a {
   text-align: center;
   margin: 10px;
   text-decoration: unset;
+}
+
+header .social {
+  display: flex;
+  justify-content: center;
+}
+
+header nav .social a {
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  border: 15px;
+  margin: 10px;
+}
+
+header .menu {
+  display: flex;
 }
 
 header .social {
@@ -87,7 +86,7 @@ h1 {
 }
 
 body {
-  background-color: #d2a679;
+   background-color: #d2a679;
 }
 
 .button {
@@ -116,10 +115,21 @@ body {
 .info article {
   background-image: url(../img/beige.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 .taste {
-  position: absolute;
-  color: green;
+  position: relative;
+  text-align: center;
+  background-image: url(../img/wood.jpg);
 }
+
+/* h2 {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: place-around;
+} */
