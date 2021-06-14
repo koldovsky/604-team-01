@@ -132,4 +132,8 @@ body {
   padding-left: 30px;
   display: flex;
   justify-content: place-around;
-} */
+}
+
+.drip-grind {
+  color: #ffd832;
+}
