@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap");
 
 :root {
-  font-family: 'Secular One', sans-serif;
+  font-family: "Secular One", sans-serif;
 }
 
 #home {
@@ -16,7 +16,7 @@
   min-height: 100px;
   margin-top: 10%;
   margin-bottom: 10%;
-  color:white;
+  color: white;
 }
 
 .informationlogo {
@@ -82,11 +82,11 @@ header .social {
 }
 
 h1 {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
 }
 
 body {
-   background-color: #d2a679;
+  background-color: #dfd6c9;
 }
 
 .button {
@@ -115,7 +115,7 @@ body {
 .info article {
   background-image: url(../img/beige.jpg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 
 .taste {
@@ -124,7 +124,7 @@ body {
   background-image: url(../img/wood.jpg);
 }
 
-/* h2 {
+ h2 {
   position: absolute;
   color: black;
   font-size: 30px;
@@ -134,6 +134,34 @@ body {
   justify-content: place-around;
 }
 
-.drip-grind {
+
+
+
+
+.coffee-category {
   color: #ffd832;
+  background-color: white;
+  min-height: 100px;
+  min-width: 100;
+}
+
+.photo {
+  background-color: white;
+}
+
+element.style {
+  width: 360px;
+}
+
+.title {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.store {
+  font-size: 18px;
+  font-weight: 400;
+  color: #413939;
+  text-align: center;
 }
