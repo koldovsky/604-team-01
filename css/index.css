@@ -140,12 +140,9 @@ body {
 
 .coffee-category {
   color: #ffd832;
-  background-color: white;
-  min-height: 100px;
-  min-width: 100;
 }
 
-.photo {
+.coffee-descr {
   background-color: white;
 }
 
