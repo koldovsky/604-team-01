@@ -124,20 +124,7 @@ body {
   background-image: url(../img/wood.jpg);
 }
 
- h2 {
-  position: absolute;
-  color: black;
-  font-size: 30px;
-  padding-top: 30px;
-  padding-left: 30px;
-  display: flex;
-  justify-content: place-around;
-}
-
-
-
-
-
+ 
 .coffee-category {
   color: #ffd832;
 }
