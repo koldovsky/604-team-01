@@ -123,9 +123,14 @@ body {
   text-align: center;
   color:black;
   background-image: url(../img/wood.jpg);
+  }
+  @media (min-width: 560px) {
+.video {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  }
 }
-
- 
 .coffee-category {
   color: #ffd832;
 }
