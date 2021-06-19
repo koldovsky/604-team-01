@@ -121,6 +121,7 @@ body {
 .taste {
   position: relative;
   text-align: center;
+  color:black;
   background-image: url(../img/wood.jpg);
 }
 
