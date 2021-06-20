@@ -121,7 +121,7 @@ body {
 .taste {
   position: relative;
   text-align: center;
-  color:black;
+  color:aliceblue;
   background-image: url(../img/wood.jpg);
   }
   @media (min-width: 560px) {
@@ -131,6 +131,14 @@ body {
   grid-gap: 5px;
   }
 }
+
+.types-of-coffee {
+  background-image: url(../img/wood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:aliceblue;
+}
+
 .coffee-category {
   color: #ffd832;
 }
