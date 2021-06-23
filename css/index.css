@@ -2,6 +2,7 @@
 
 :root {
   font-family: "Secular One", sans-serif;
+  --dark-grey: #676767;
 }
 
 #home {
@@ -162,4 +163,18 @@ element.style {
   font-weight: 400;
   color: #413939;
   text-align: center;
+}
+
+#testimonials h2, section#news h2 {
+  color: var(--dark-grey);
+  font-size: 90%;
+}
+
+.white-text {
+  color: whitesmoke
+}
+
+#testimonials .customer {
+  color: var(--dark-grey);
+  font-size: larger;
 }
