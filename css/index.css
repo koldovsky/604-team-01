@@ -58,7 +58,8 @@ header .menu {
   display: flex;
 }
 .clock {
-  color:#ffffff
+  color:#ffffff;
+  border:#ffffff;
   
 }
 header .social {

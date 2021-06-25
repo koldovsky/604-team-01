@@ -1,6 +1,6 @@
 function updateClock() {
 const clockContainer = document.querySelector('.clock');
-clockContainer.innerText = new Date().toLocaleTimeString('uk');
+clockContainer.innerHTML = '<b>' + new Date().toLocaleTimeString('uk') + '</b>';
 }
 
 setInterval(updateClock, 1000);
