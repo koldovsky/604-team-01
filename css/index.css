@@ -57,7 +57,10 @@ header nav .social a {
 header .menu {
   display: flex;
 }
-
+.clock {
+  color:#ffffff
+  
+}
 header .social {
   display: flex;
   justify-content: center;
