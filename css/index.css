@@ -132,12 +132,22 @@ body {
   grid-gap: 5px;
   }
 }
-
-.types-of-coffee {
+#box-container {
+  display:flex;
+  
+}
+#box-1 {
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color:aliceblue;
+  height: 400px;
+}
+#box-2 {
+  background-image: url(../img/wood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
 
 .coffee-category {
