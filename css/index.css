@@ -128,29 +128,39 @@ body {
   text-align: center;
   color:aliceblue;
   background-image: url(../img/wood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   }
+  
   @media (min-width: 560px) {
 .video {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
-  }
+  border: solid red;
+  width: 
+    }
 }
-#box-container {
-  display:flex;
+.li {
+  font-size: 1.2rem;
   
 }
-#box-1 {
+.container2 {
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color:aliceblue;
+display: flex;
+height: 450px;  
+}
+.box1 {
+ 
+    color:aliceblue;
   height: 400px;
 }
-#box-2 {
-  background-image: url(../img/wood.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.box2 {
+ 
+  height: 400px;
  
 }
 
