@@ -133,14 +133,17 @@ body {
 
   }
   
-  @media (min-width: 560px) {
+  @media (min-width: 768px) {
 .video {
-  display: grid;
+    display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
   border: solid red;
- 
-    }
+    position: relative;
+    position: relative;
+    min-width: 320px;
+    
+            }
 }
 .li {
   font-size: 1.2rem;
