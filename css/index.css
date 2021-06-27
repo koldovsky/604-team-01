@@ -124,7 +124,8 @@ body {
 }
 
 .taste {
-  position: relative;
+  padding: 35px;
+     
   text-align: center;
   color:aliceblue;
   background-image: url(../img/wood.jpg);
@@ -133,23 +134,19 @@ body {
 
   }
   
-  @media (min-width: 768px) {
+  
 .video {
-    display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5px;
-  border: solid red;
-    position: relative;
-    position: relative;
-    min-width: 320px;
-    
-            }
-}
+border: solid red;
+text-align: center;
+size: cover;
+ }
+
 .li {
   font-size: 1.2rem;
   
 }
 .container2 {
+  padding: 20px;
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,12 +155,12 @@ height: 450px;
 }
 .box1 {
  
-    color:aliceblue;
-  height: 400px;
+  color:aliceblue;
+  height: 300px;
 }
 .box2 {
- 
-  height: 400px;
+  
+  height: 200px;
  
 }
 
