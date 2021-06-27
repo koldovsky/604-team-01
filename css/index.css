@@ -192,6 +192,11 @@ element.style {
   text-align: center;
 }
 
+#testimonials .title, #news .title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 #testimonials h2, section#news h2 {
   color: var(--dark-grey);
   font-size: 90%;
@@ -248,4 +253,8 @@ element.style {
 
 #news article {
   background-color: white;
+}
+
+.date {
+  font-weight: bold;
 }
