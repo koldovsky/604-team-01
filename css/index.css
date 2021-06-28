@@ -237,6 +237,10 @@ element.style {
 #numbers {
   font-weight: bold;
   background-color: #f4ebe4;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
 }
 
 #numbers p:first-of-type {
