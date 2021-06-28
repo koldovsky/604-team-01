@@ -219,11 +219,11 @@ element.style {
   text-align: center;
 }
 
-#testimonials article {
+#testimonialsCarousel {
   background-color: #663B36;
 }
 
-#testimonials article p:first-of-type {
+#testimonials div.carousel-item p:first-of-type {
   color: #d8d8d8;
   font-style: italic;
 }
@@ -243,18 +243,18 @@ element.style {
   font-size: xx-large;
 }
 
-#testimonials article > img, #news article > img {
-  max-width: 100%;
+#news img {
+  height: 40vh;
 }
 
 #news {
-  background-image: url(../img/wood.jpg);
+  background-image: url(../img/background-img/wood.jpg);
 }
 
-#news > div > :not(article) {
+#news {
   text-align: center;
 }
 
-#news article {
+#news .carousel-item {
   background-color: white;
 }
