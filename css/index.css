@@ -189,6 +189,10 @@ element.style {
   text-align: center;
 }
 
+.date {
+  font-weight: bold;
+}
+
 #testimonials .title, #news .title {
   font-size: xx-large;
   font-weight: bold;
@@ -224,17 +228,6 @@ element.style {
 
 #numbers {
   text-align: center;
-}
-
-#news {
-  background-image: url(../img/wood.jpg);
-}
-
-#testimonials article > img, #news article > img {
-  max-width: 100%;
-}
-
-#numbers {
   font-weight: bold;
   background-color: #f4ebe4;
   display: flex;
@@ -248,14 +241,18 @@ element.style {
   font-size: xx-large;
 }
 
+#testimonials article > img, #news article > img {
+  max-width: 100%;
+}
+
+#news {
+  background-image: url(../img/wood.jpg);
+}
+
 #news > div > :not(article) {
   text-align: center;
 }
 
 #news article {
   background-color: white;
-}
-
-.date {
-  font-weight: bold;
 }
