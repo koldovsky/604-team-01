@@ -195,9 +195,13 @@ element.style {
   font-weight: bold;
 }
 
-#testimonials .title, #news .title {
-  font-size: xx-large;
-  font-weight: bold;
+.white-text {
+  color: whitesmoke
+}
+
+#testimonials {
+  background-color: #5b3733;
+  text-align: center;
 }
 
 #testimonials h2, section#news h2 {
@@ -205,18 +209,14 @@ element.style {
   font-size: 90%;
 }
 
-.white-text {
-  color: whitesmoke
+#testimonials .title, #news .title {
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 #testimonials .customer {
   color: var(--dark-grey);
   font-size: larger;
-}
-
-#testimonials {
-  background-color: #5b3733;
-  text-align: center;
 }
 
 #testimonialsCarousel {
@@ -243,12 +243,17 @@ element.style {
   font-size: xx-large;
 }
 
-#news img {
-  height: 40vh;
-}
-
 #news {
   background-image: url(../img/background-img/wood.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#news img {
+  height: 40vh;
+  width: 80vh;
+  object-fit: cover;
 }
 
 #news {
@@ -257,4 +262,6 @@ element.style {
 
 #news .carousel-item {
   background-color: white;
+  width: 85vh;
+  min-height: 270px;
 }
