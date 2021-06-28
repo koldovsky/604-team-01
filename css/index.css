@@ -242,14 +242,13 @@ element.style {
 }
 
 #news img {
-  height: 200px;
+  height: 40vh;
 }
 
 #news {
   background-image: url(../img/background-img/wood.jpg);
 }
 
-/* #news > div > :not(article) */
 #news {
   text-align: center;
 }
