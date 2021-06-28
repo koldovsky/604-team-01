@@ -1,35 +1,63 @@
-constproductsJson = 
+const productsJson = `
 [
     {
-        "ia" : "1",
+        "id" : "1",
         "title": "Medium",
-        "discription": "MEDIUM ROAST COFFEE",
-        "imgUrl": "img/medium.jpg"
+        "description": "MEDIUM ROAST COFFEE",
+        "price": 16.00,
+        "imgUrl": "img/medium.png"
     },
     {
-        "ia" : "2",
+        "id" : "2",
         "title": "Dark",
-        "discription": "DARK ROAST COFFEE",
-        "imgUrl": "img/dark.jpg" 
+        "description": "DARK ROAST COFFEE",
+        "price": 18.00,
+        "imgUrl": "img/dark.png" 
     },
     {
-        "ia" : "3",
+        "id" : "3",
         "title": "Decaf",
-        "discription": "DECAF COFFEE",
-        "imgUrl": "img/decaf.jpg" 
+        "description": "DECAF COFFEE",
+        "price": 20.00,
+        "imgUrl": "img/decaf.png" 
     }
 ]
-;
-renderProducts (products) {
-    let productsHtml = '';
-    for(const product of products) {
-        products += <article>
-        <img src="img/medium.png" width="200" class="photo" alt="Medium" />
-  <h3><b>MEDIUM ROAST COFFEE</b></h3>
-  <p>Arabica & Robusta</p>
-  <div class="buttons">
-    <button class="button card-button">Shop now</button>
-            </div>
-            </article>
-            
+`;
+
+function renderProducts(products, sortDirection) {
+  const sortedProducts = [...products].sort((a, b) =>
+    sortDirection === "ascending" ? a.price - b.price : b.price - a.price
+  );
+  let productsHtml = "";
+  for (const product of sortedProducts) {
+    productsHtml += `
+            <article>
+                <img src="${product.imgUrl}" class="products-img" alt="${product.title}" />
+                <h3>${product.title}</h3>
+                <p>${product.description}</p>
+                <div class="buttons">
+                    <button class="button card-button">Info</button>
+                    <button class="button card-button">Buy - $${product.price}</button>
+                </div>
+        </article>`;
+  }
+  document.querySelector(".products").innerHTML = productsHtml;
+}
+
+const products = JSON.parse(productsJson);
+
+renderProducts(products, "ascending");
+
+const btnSortAsc = document.querySelector(".sort-asc");
+const btnSortDesc = document.querySelector(".sort-desc");
+
+btnSortAsc.addEventListener("click", sortAscending);
+btnSortDesc.addEventListener("click", sortDescending);
+
+function sortAscending() {
+  renderProducts(products, "ascending");
+}
+
+function sortDescending() {
+  renderProducts(products, "descending");
 }

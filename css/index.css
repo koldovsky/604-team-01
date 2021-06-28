@@ -163,7 +163,9 @@ height: 450px;
   height: 200px;
  
 }
-
+.products-img {
+  width: 200px;
+}
 .coffee-category {
   color: #ffd832;
 }
