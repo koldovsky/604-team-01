@@ -122,7 +122,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.one {
+  float: left;
+  margin: 0 15px 0 0;
+}
 .taste {
   padding: 60px;
   text-align: center;
@@ -132,8 +135,7 @@ body {
   background-size: cover;
 
   }
-  
-  
+    
 .video {
 text-align: center;
  }
