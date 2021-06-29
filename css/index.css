@@ -124,8 +124,7 @@ body {
 }
 
 .taste {
-  padding: 35px;
-     
+  padding: 60px;
   text-align: center;
   color:aliceblue;
   background-image: url(../img/wood.jpg);
@@ -136,9 +135,7 @@ body {
   
   
 .video {
-border: solid red;
 text-align: center;
-size: cover;
  }
 
 .li {
@@ -146,7 +143,7 @@ size: cover;
   
 }
 .container2 {
-  padding: 20px;
+    padding: 20px;
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
