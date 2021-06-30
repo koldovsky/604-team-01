@@ -117,15 +117,28 @@ body {
   justify-content: space-around;
 }
 
-.info article {
+.info {
   background-image: url(../img/beige.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.one {
-  float: left;
-  margin: 0 15px 0 0;
+  
+.info .info-one {
+float: left;
+width: 70px;
 }
+.info .info-two {
+  float: left;
+  width: 70px;
+  }
+  .info .info-three {
+    float: left;
+    width: 70px;
+    }
+    .info .info-four {
+      float: left;
+      width: 70px;
+      }
 .taste {
   padding: 60px;
   text-align: center;
