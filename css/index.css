@@ -6,15 +6,27 @@
   font-family: "Secular One", sans-serif;
   --dark-grey: #676767;
 }
-
+ 
 #home {
   background-image: url(../img/background-img/headcoffe.jpg);
   background-size: cover;
-  display: flex;
   font-size: 20px;
   background-color: grey;
 }
 
+.block3 {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  background-image: url(../img/background-img/coffeeblock3.jpg);
+  background-size: cover;
+  background-color: grey;
+  width:950px;
+  text-align: center;
+}
+.lorem {
+background-color: white;
+padding: 10px;
+}
 .banner {
   min-height: 100px;
   margin-top: 10%;
@@ -43,19 +55,6 @@ header nav .menu a {
   text-decoration: unset;
 }
 
-header .social {
-  display: flex;
-  justify-content: center;
-}
-
-header nav .social a {
-  height: 20px;
-  width: 20px;
-  padding: 0px;
-  border: 15px;
-  margin: 10px;
-}
-
 header .menu {
   display: flex;
 }
@@ -64,28 +63,9 @@ header .menu {
   border:#ffffff;
   
 }
-header .social {
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
-header nav .social a {
-  height: 20px;
-  width: 20px;
-  padding: 0px;
-  border: 15px;
-  margin: 10px;
-  color: white;
-}
 
 header .menu {
   display: flex;
-}
-
-header .social {
-  display: flex;
-  color: white;
 }
 
 h1 {
@@ -256,7 +236,6 @@ element.style {
 #testimonials {
   background-color: #5b3733;
   text-align: center;
-  padding-top: 2vh;
 }
 
 #testimonials h2, section#news h2 {
@@ -290,22 +269,7 @@ element.style {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-
-#numbers div {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  #numbers div {
-    width: 50%;
-  }
-}
-
-@media (min-width: 992px) {
-  #numbers div {
-    width: 25%;
-  }
+  flex: 0 0 auto;
 }
 
 #numbers p:first-of-type {
@@ -318,16 +282,12 @@ element.style {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 2vh;
 }
 
 #news img {
-  min-height: 40vh;
-  min-width: 80vh;
-  max-height: 40vw;
-  max-width: 80vw;
+  height: 40vh;
+  width: 80vh;
   object-fit: cover;
-  margin: 2vmin;
 }
 
 #news {
@@ -336,4 +296,6 @@ element.style {
 
 #news .carousel-item {
   background-color: white;
+  width: 85vh;
+  min-height: 270px;
 }
