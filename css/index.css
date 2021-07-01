@@ -220,6 +220,7 @@ element.style {
 #testimonials {
   background-color: #5b3733;
   text-align: center;
+  padding-top: 2vh;
 }
 
 #testimonials h2, section#news h2 {
@@ -253,7 +254,22 @@ element.style {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  flex: 0 0 auto;
+}
+
+#numbers div {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #numbers div {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  #numbers div {
+    width: 25%;
+  }
 }
 
 #numbers p:first-of-type {
@@ -266,12 +282,16 @@ element.style {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 2vh;
 }
 
 #news img {
-  height: 40vh;
-  width: 80vh;
+  min-height: 40vh;
+  min-width: 80vh;
+  max-height: 40vw;
+  max-width: 80vw;
   object-fit: cover;
+  margin: 2vmin;
 }
 
 #news {
@@ -280,6 +300,4 @@ element.style {
 
 #news .carousel-item {
   background-color: white;
-  width: 85vh;
-  min-height: 270px;
 }
