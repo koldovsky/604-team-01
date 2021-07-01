@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
 :root {
   font-family: "Secular One", sans-serif;
   --dark-grey: #676767;
@@ -124,21 +126,21 @@ body {
 }
   
 .info .info-one {
-float: left;
-width: 70px;
+  float: left;
+  width: 70px;
 }
 .info .info-two {
   float: left;
   width: 70px;
-  }
-  .info .info-three {
-    float: left;
-    width: 70px;
-    }
-    .info .info-four {
-      float: left;
-      width: 70px;
-      }
+}
+.info .info-three {
+  float: left;
+  width: 70px;
+}
+.info .info-four {
+  float: left;
+  width: 70px;
+}
 .taste {
   padding: 60px;
   text-align: center;
@@ -146,38 +148,78 @@ width: 70px;
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  }
-    
-.video {
-text-align: center;
- }
-
+}
 .li {
   font-size: 1.2rem;
-  
 }
 .container2 {
-    padding: 20px;
+  padding: 20px;
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-display: flex;
-height: 450px;  
+  display: flex;
+  height: 450px;  
 }
 .box1 {
- 
   color:aliceblue;
   height: 300px;
 }
 .box2 {
-  
-  height: 200px;
- 
-}
+    height: 200px;
+ }
 .products-img {
   width: 200px;
 }
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gallary {
+  background: url(../img/wood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallary h1 {
+  color: #ffffff;
+  text-align: center;
+}
+.gallary_list {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -webkit-flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 400px;
+}
+.gallary_item {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background-color: #ffffff;
+  border: solid #dab38b;
+}
+.gallary_item img {
+  margin-left: 70px;
+  width: 150px;
+  height: auto;
+}
+.gallary_item .text .title {
+  color: #111;
+  text-align: center;
+}
+.gallary_item .text p {
+  margin: 20px 0;
+}
+
 .coffee-category {
   color: #ffd832;
 }
