@@ -292,6 +292,22 @@ element.style {
   flex-wrap: wrap;
 }
 
+#numbers div {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #numbers div {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  #numbers div {
+    width: 25%;
+  }
+}
+
 #numbers p:first-of-type {
   color: var(--dark-grey);
   font-size: xx-large;
