@@ -263,23 +263,26 @@ element.style {
   text-align: center;
   font-weight: bold;
   background-color: #f4ebe4;
+}
+
+#numbers > div {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-#numbers div {
+#numbers div div {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  #numbers div {
+  #numbers div div {
     width: 50%;
   }
 }
 
 @media (min-width: 992px) {
-  #numbers div {
+  #numbers div div {
     width: 25%;
   }
 }
