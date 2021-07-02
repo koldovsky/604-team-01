@@ -97,6 +97,10 @@ body {
 .info .buttons {
   display: flex;
   justify-content: space-around;
+  
+}
+.info button:hover {
+  box-shadow: 0px 0px 20px #734d26;
 }
 
 .info {
@@ -104,11 +108,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-  
+
+.info h2 {
+  color: #734d26;
+}
+
 .info .info-one {
   float: left;
   width: 70px;
-}
+  }
 .info .info-two {
   float: left;
   width: 70px;
@@ -129,10 +137,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.taste img {
+  box-shadow: 0px 0px 20px #faed27;
+}
  
 .products-img {
   width: 200px;
+  box-shadow: 0px 0px 20px #FF4500;
 }
 * {
   margin: 0;
@@ -170,6 +181,7 @@ body {
   height: 250px;
   background-color: #ffffff;
   border: solid #dab38b;
+  box-shadow: 0px 0px 20px #faed27;
 }
 .gallary_item img {
   margin-left: 70px;
