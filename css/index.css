@@ -220,7 +220,7 @@ element.style {
 #testimonials {
   background-color: #5b3733;
   text-align: center;
-  padding-top: 2vh;
+  padding: 2vh;
 }
 
 #testimonials h2, section#news h2 {
@@ -282,16 +282,26 @@ element.style {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 2vh;
+  padding: 2vh;
+}
+
+#news > div > p {
+  font-weight: bold;
+  font-size: large;
 }
 
 #news img {
-  min-height: 40vh;
-  min-width: 80vh;
-  max-height: 40vw;
-  max-width: 80vw;
-  object-fit: cover;
-  margin: 2vmin;
+  width: 94%;
+  margin: 3%;
+}
+
+#news .date {
+  color: var(--dark-grey);
+}
+
+#news h3 {
+  font-size: large;
+  font-weight: bold;
 }
 
 #news {
