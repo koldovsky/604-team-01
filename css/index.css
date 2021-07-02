@@ -221,21 +221,14 @@ element.style {
   text-align: center;
 }
 
-.date {
-  font-weight: bold;
-}
-
-.white-text {
-  color: whitesmoke
-}
-
 #testimonials {
   background-color: #5b3733;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
   text-align: center;
-  padding: 2vh;
 }
 
-#testimonials h2, section#news h2 {
+#testimonials h2, #news h2 {
   color: var(--dark-grey);
   font-size: 90%;
 }
@@ -245,13 +238,25 @@ element.style {
   font-weight: bold;
 }
 
-#testimonials .customer {
-  color: var(--dark-grey);
-  font-size: larger;
+.white-text {
+  color: whitesmoke
 }
 
 #testimonialsCarousel {
   background-color: #663B36;
+}
+
+#testimonials .carousel-item {
+  padding: 3%;
+}
+
+#testimonials img {
+  max-width: 50%;
+}
+
+#testimonials .customer {
+  color: var(--dark-grey);
+  font-size: larger;
 }
 
 #testimonials div.carousel-item p:first-of-type {
@@ -259,16 +264,20 @@ element.style {
   font-style: italic;
 }
 
-#numbers {
-  text-align: center;
+.date {
   font-weight: bold;
+}
+
+#numbers {
   background-color: #f4ebe4;
+  font-weight: bold;
+  text-align: center;
 }
 
 #numbers > div {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #numbers div div {
@@ -293,21 +302,34 @@ element.style {
 }
 
 #news {
-  background-image: url(../img/background-img/wood.jpg);
   background-attachment: fixed;
+  background-image: url(../img/background-img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  text-align: center;
 }
 
 #news > div > p {
-  font-weight: bold;
   font-size: large;
+  font-weight: bold;
+}
+
+#news .carousel-item {
+  background-color: white;
+  text-align: left;
+}
+
+#news .carousel-item * {
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 #news img {
+  border-radius: 6px;
+  margin-top: 3%;
   width: 94%;
-  margin: 3%;
 }
 
 #news .date {
@@ -317,12 +339,4 @@ element.style {
 #news h3 {
   font-size: large;
   font-weight: bold;
-}
-
-#news {
-  text-align: center;
-}
-
-#news .carousel-item {
-  background-color: white;
 }
