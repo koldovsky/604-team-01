@@ -1,3 +1,104 @@
 :root {
-  scroll-behavior: smooth;
+  --grey-background: #d8d8d8;
+}
+
+header {
+  background-color: var(--grey-background);
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: large;
+  width: 55%;
+}
+
+header a {
+  align-self: center;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+header button {
+  font-weight: bold !important;
+}
+
+header a:hover {
+  color: ;
+  text-decoration: underline;
+}
+
+header img {
+  width: 66px;
+}
+
+main {
+  background-image: url("../img/product-page/background-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+main > div {
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+
+@media (min-width: 767px) {
+  main > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+main img {
+  width: 100%
+}
+
+.in-stock {
+  color: #61a854;
+}
+
+.out-of-stock {
+  color: red;
+}
+
+h2, #price {
+  font-weight: bold;
+}
+
+footer {
+  background-color: var(--grey-background);
+  text-align: center;
+}
+
+footer > :first-child {
+  background-color: rgb(222, 213, 200);
+  padding-top: 4vh;
+}
+
+body > footer > div > a > img {
+  width: 90px;
+}
+
+footer div p {
+  color: rgb(170,155,143);
+  font-weight: bold;
 }
