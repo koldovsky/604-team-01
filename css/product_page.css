@@ -98,11 +98,6 @@ header button {
   header a {
     align-self: center;
   }
-
-  footer nav {
-    flex-direction: unset;
-    justify-content: space-evenly;
-  }
 }
 
 main {
@@ -162,6 +157,13 @@ footer div p {
 footer nav {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  footer nav {
+    flex-direction: unset;
+    justify-content: space-evenly;
+  }
 }
 
 footer a {
