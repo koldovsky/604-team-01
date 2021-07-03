@@ -10,19 +10,21 @@ header {
   padding-top: 30px;
 }
 
+header img {
+  width: 66px;
+}
+
 .ham {
   cursor: pointer;
-  height: 1rem;
-  position: relative;
-  right: 1rem;
-  top: 1rem;
-  width: 1rem;
+  /*height: 1rem;*/
+  /*position: absolute;*/
+  /*right: 1rem;*/
+  /*top: 1rem;*/
+  /*width: 1rem;*/
   /* z-index: 100; */
 }
 
-.xIcon {
-  display: none;
-}
+/* todo: fix menu blinking when page is loaded */
 
 .menu {
   position: fixed;
@@ -35,61 +37,67 @@ header {
   background: var(--grey-background);
   transform: translateY(-100%);
   transition: transform 0.2s;
-  list-style: none;
-  padding-top: 4rem;
+  padding-top: 30px;
 }
 
 .showMenu {
   transform: translateY(0);
 }
 
-header > div.container {
+.xIcon {
   display: none;
 }
 
-@media (min-width: 992px) {
-  .ham {
-    display: none;
-  }
-
-  header > div.container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  header > div > div {
-    display: flex;
-    flex-wrap: wrap;
-    width: 25%;
-  }
-  
-  header nav {
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: bold;
-    font-size: large;
-    width: 55%;
-  }  
-}
-
 header a {
-  align-self: center;
   color: white;
   margin-left: 15px;
   margin-right: 15px;
   text-decoration: none;
 }
 
-header img {
-  width: 66px;
+header a:hover, footer a:hover {
+  color: var(--anchor-hover);
+}
+
+header > div.container:last-child {
+  display: none;
 }
 
 header button {
   font-weight: bold !important;
 }
 
-header a:hover, footer a:hover {
-  color: var(--anchor-hover);
+@media (min-width: 992px) {
+  header > a {
+    display: none;
+  }
+
+  .ham {
+    display: none;
+  }
+
+  header > div.container:last-child {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header > div:last-child > div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+  }
+
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: large;
+    width: 55%;
+  }
+
+  header a {
+    align-self: center;
+  }
 }
 
 main {
@@ -142,7 +150,7 @@ footer > div > a > img {
 }
 
 footer div p {
-  color: rgb(170,155,143);
+  color: rgb(170, 155, 143);
   font-weight: bold;
 }
 
