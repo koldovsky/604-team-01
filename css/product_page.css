@@ -1,5 +1,6 @@
 :root {
   --grey-background: #d8d8d8;
+  --anchor-hover: #676767;
 }
 
 header {
@@ -40,9 +41,8 @@ header button {
   font-weight: bold !important;
 }
 
-header a:hover {
-  color: ;
-  text-decoration: underline;
+header a:hover, footer a:hover {
+  color: var(--anchor-hover);
 }
 
 header img {
@@ -94,11 +94,36 @@ footer > :first-child {
   padding-top: 4vh;
 }
 
-body > footer > div > a > img {
+footer > div > a > img {
   width: 90px;
 }
 
 footer div p {
   color: rgb(170,155,143);
   font-weight: bold;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  footer nav {
+    flex-direction: unset;
+    justify-content: space-evenly;
+  }
+}
+
+footer a {
+  color: black;
+  font-size: large;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+footer > p {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
