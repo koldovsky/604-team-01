@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap");
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 :root {
   font-family: "Secular One", sans-serif;
   --dark-grey: #676767;
@@ -106,14 +105,17 @@ body {
   
 }
 .info button:hover {
-  box-shadow: 0px 0px 20px #734d26;
+  box-shadow: 0px 0px 20px #734d26;  
 }
 .info h2 {
   color: #734d26;
+  font-family: 'Marck Script', cursive;
+  font-size: 50px;
 }
 .info h3:hover {
 color: #734d26;
 font-size: 30px;
+font-family: 'Marck Script', cursive;
 }
 .info .info-one {
   float: left;
@@ -191,13 +193,30 @@ font-size: 30px;
   height: auto;
 }
 .gallary_item .text .title {
-  color: #111;
+  color: #734d26;
+  font-size: 30px;
   text-align: center;
-}
+  font-family: 'Marck Script', cursive;
+  }
 .gallary_item .text p {
+  text-align: center;
   margin: 20px 0;
 }
-
+.gallary_item .b1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.gallary_item .b2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.gallary_item .b3 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
 .products-img {
   width: 200px;
   box-shadow: 0px 0px 20px #FF4500;
