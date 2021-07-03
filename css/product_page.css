@@ -12,11 +12,11 @@ header {
 
 .ham {
   cursor: pointer;
-  height: 1rem;
-  position: relative;
-  right: 1rem;
-  top: 1rem;
-  width: 1rem;
+  /*height: 1rem;*/
+  /*position: absolute;*/
+  /*right: 1rem;*/
+  /*top: 1rem;*/
+  /*width: 1rem;*/
   /* z-index: 100; */
 }
 
@@ -56,20 +56,20 @@ header > div.container {
     display: flex;
     justify-content: space-between;
   }
-  
+
   header > div > div {
     display: flex;
     flex-wrap: wrap;
     width: 25%;
   }
-  
+
   header nav {
     display: flex;
     flex-wrap: wrap;
     font-weight: bold;
     font-size: large;
     width: 55%;
-  }  
+  }
 }
 
 header a {
@@ -142,7 +142,7 @@ footer > div > a > img {
 }
 
 footer div p {
-  color: rgb(170,155,143);
+  color: rgb(170, 155, 143);
   font-weight: bold;
 }
 
