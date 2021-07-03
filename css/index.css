@@ -111,7 +111,10 @@ body {
 .info h2 {
   color: #734d26;
 }
-
+.info h3:hover {
+color: #734d26;
+font-size: 30px;
+}
 .info .info-one {
   float: left;
   width: 70px;
