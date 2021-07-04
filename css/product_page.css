@@ -10,6 +10,13 @@ header {
   padding-top: 30px;
 }
 
+header > div:first-child, header > div.menu div {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
 header img {
   width: 66px;
 }
@@ -24,9 +31,10 @@ header img {
   /* z-index: 100; */
 }
 
-/* todo: fix menu blinking when page is loaded */
+/* todo: fix menu blinking when page is loaded in mobile version */
 
 .menu {
+  text-align: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -48,7 +56,18 @@ header img {
   display: none;
 }
 
-header a {
+header .menu nav * {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+header nav {
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+header nav a {
   color: white;
   margin-left: 15px;
   margin-right: 15px;
@@ -57,6 +76,14 @@ header a {
 
 header a:hover, footer a:hover {
   color: var(--anchor-hover);
+}
+
+header .menu h1 {
+  margin-top: 10px;
+}
+
+header .menu > a button {
+  margin-top: 30px;
 }
 
 header > div.container:last-child {
@@ -68,7 +95,7 @@ header button {
 }
 
 @media (min-width: 992px) {
-  header > a {
+  header > div:first-child a {
     display: none;
   }
 
@@ -88,9 +115,8 @@ header button {
   }
 
   header nav {
-    display: flex;
+    flex-direction: unset;
     flex-wrap: wrap;
-    font-weight: bold;
     font-size: large;
     width: 55%;
   }
@@ -128,7 +154,7 @@ main img {
 }
 
 .out-of-stock {
-  color: red;
+  color: orange;
 }
 
 h2, #price {
