@@ -5,12 +5,36 @@
   font-family: "Secular One", sans-serif;
   --dark-grey: #676767; 
 }
- 
+  
 #home {
   background-image: url(../img/background-img/headcoffe.jpg);
   background-size: cover;
   font-size: 20px;
   background-color: grey;
+  margin-right: auto;
+    margin-left: auto;
+
+}
+
+.logo-icon {
+  font-size: 2.0rem;
+  font-family: "Fredoka One", cursive;
+  color:rgb(105, 105, 105);
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  text-decoration: unset;
+  margin-right: 2.5rem;
+}
+
+.nav1 {
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+.logo2 {
+  display: flex;
+  max-width: 950px;
 }
 
 .block2 {
@@ -54,6 +78,7 @@ margin-top: -200px;
   margin-top: 200px;
 /*  margin-bottom: 10%;*/
   color: white;
+  max-width: 950px;
 }
 
 .photoblock2 {
@@ -94,16 +119,16 @@ header nav .menu a {
   display: block;
   font-size: 16px;
   font-weight: bold;
-  color: #ffffff;
+  color:rgb(105, 105, 105);
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   text-decoration: unset;
 }
 
 
 .clock {
-  color:#ffffff;
-  border:#ffffff;
+  color:rgb(105, 105, 105);
+  border:rgb(105, 105, 105);
   
 }
 
