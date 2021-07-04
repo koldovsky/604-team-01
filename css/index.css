@@ -217,10 +217,53 @@ font-family: 'Marck Script', cursive;
   display: flex;
   justify-content: center;
 }
-.products-img {
-  width: 200px;
-  box-shadow: 0px 0px 20px #FF4500;
+
+
+.products article {
+  border: 1px solid var(--main-color);
+  padding: 5px;
+  box-shadow: 0px 0px 20px #734d26;
+  margin: 10px;
 }
+
+.products article img {
+  display: block;
+  width: 100%;
+}
+
+.products article .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.buttons-sort {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 560px) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+}
+
+@media (min-width: 660px) {
+  .products {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 980px) {
+  .products {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
+
+
 
 .coffee-category {
   color: #ffd832;
