@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 :root {
   font-family: "Secular One", sans-serif;
-  --dark-grey: #676767;
+  --dark-grey: #676767; 
 }
  
 #home {
@@ -13,29 +13,75 @@
   background-color: grey;
 }
 
+.block2 {
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+.background2 {
+  background-image: url(../img/background-img/coffee-background2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  min-height: 400px;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
 .block3 {
   display: grid;
   grid-template-columns: 45% 55%;
-  background-image: url(../img/background-img/coffeeblock3.jpg);
+ /* background-image: url(../img/background-img/block3.jpg);
+  background-size: cover;
+  background-color: grey;*/
+  margin:auto;
+  max-width:950px;
+  text-align: center;
+ max-height: 800px;
+}
+
+.lorem {
+background-color: rgba(255, 255, 255, 0.671);
+margin-top: -200px;
+}
+
+.background3 {
+  background-image: url(../img/background-img/block3.jpg);
   background-size: cover;
   background-color: grey;
-  width:950px;
-  text-align: center;
 }
-.lorem {
-background-color: white;
-padding: 10px;
-}
+
 .banner {
-  min-height: 100px;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  min-height: 400px;
+  margin-top: 200px;
+/*  margin-bottom: 10%;*/
   color: white;
 }
 
-.informationlogo {
-  text-transform: undeercase;
+.photoblock2 {
+  padding-top: 20px;
+}
+
+.information {
   text-align: center;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.informationlogo article{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.733);
+}
+
+.informationlogo {
+  text-align: center;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 header nav .logo-icon {
@@ -54,9 +100,7 @@ header nav .menu a {
   text-decoration: unset;
 }
 
-header .menu {
-  display: flex;
-}
+
 .clock {
   color:#ffffff;
   border:#ffffff;
