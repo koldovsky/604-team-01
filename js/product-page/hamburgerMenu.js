@@ -1,7 +1,7 @@
-let menu = document.querySelector('.menu');
-let ham = document.querySelectorAll('.ham');
-let menuIcon = document.querySelector('.menuIcon');
-let xIcon = document.querySelector('.xIcon');
+const menu = document.querySelector('.menu');
+const ham = document.querySelectorAll('.ham');
+const menuIcon = document.querySelector('.menuIcon');
+const xIcon = document.querySelector('.xIcon');
 
 ham[0].addEventListener('click', toggleMenu);
 ham[1].addEventListener('click', toggleMenu);
