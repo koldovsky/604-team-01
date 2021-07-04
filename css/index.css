@@ -102,8 +102,8 @@ body {
 .info .buttons {
   display: flex;
   justify-content: space-around;
-  
 }
+
 .info button:hover {
   box-shadow: 0px 0px 20px #734d26;  
 }
@@ -223,9 +223,13 @@ font-family: 'Marck Script', cursive;
   border: 1px solid var(--main-color);
   padding: 5px;
   box-shadow: 0px 0px 20px #734d26;
-  margin: 10px;
+  margin: 30px;
+  text-align: center;
+  transition: 1s;
+    }
+.products article:hover {
+transform: scale(1.1);
 }
-
 .products article img {
   display: block;
   width: 100%;
@@ -251,6 +255,8 @@ font-family: 'Marck Script', cursive;
 @media (min-width: 660px) {
   .products {
     grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+  justify-content: space-around;
   }
 }
 
@@ -259,9 +265,6 @@ font-family: 'Marck Script', cursive;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
-
-
 
 
 
