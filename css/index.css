@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 :root {
   font-family: "Secular One", sans-serif;
-  --dark-grey: #676767; 
+  --dark-grey: #676767;  
 }
   
 #home {
@@ -39,7 +39,7 @@
 }
 
 .block2 {
-  background-color: rgba(255, 255, 255, 0.651);
+  background-color: rgba(238, 238, 238, 0.651);
 }
 
 .background2 {
@@ -64,8 +64,10 @@
 }
 
 .lorem {
-background-color: rgba(255, 255, 255, 0.671);
+  background-color: rgb(211, 211, 211);
 margin-top: -200px;
+margin-bottom: 40px;
+
 }
 
 .background3 {
@@ -84,6 +86,12 @@ margin-top: -200px;
 
 .photoblock2 {
   padding-top: 20px;
+  margin-bottom: 40px;
+
+}
+
+.photoblock {
+  margin-top: 40px;
 }
 
 #information {
@@ -103,7 +111,8 @@ margin-top: -200px;
   padding-top: 50px;
   margin-bottom: 50px;
   background-color: rgba(255, 255, 255, 0.733);
-  border:2px solid black;
+  border:5px 	
+  groove black;
 }
 
 
