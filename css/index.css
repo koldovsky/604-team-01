@@ -3,18 +3,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 :root {
   font-family: "Secular One", sans-serif;
-  --dark-grey: #676767; 
+  --dark-grey: #676767;  
 }
- 
+  
 #home {
   background-image: url(../img/background-img/headcoffe.jpg);
+  background-blend-mode: multiply;
   background-size: cover;
   font-size: 20px;
   background-color: grey;
+  margin-right: auto;
+    margin-left: auto;
+
+}
+
+.logo-icon {
+  font-size: 2.0rem;
+  font-family: "Fredoka One", cursive;
+  color:rgb(105, 105, 105);
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  text-decoration: unset;
+  margin-right: 2.5rem;
+}
+
+.nav1 {
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+.logo2 {
+  display: flex;
+  max-width: 950px;
 }
 
 .block2 {
-  background-color: rgba(255, 255, 255, 0.651);
+  background-color: rgba(238, 238, 238, 0.651);
 }
 
 .background2 {
@@ -39,8 +64,10 @@
 }
 
 .lorem {
-background-color: rgba(255, 255, 255, 0.671);
+  background-color: rgb(211, 211, 211);
 margin-top: -200px;
+margin-bottom: 40px;
+
 }
 
 .background3 {
@@ -54,26 +81,40 @@ margin-top: -200px;
   margin-top: 200px;
 /*  margin-bottom: 10%;*/
   color: white;
+  max-width: 950px;
 }
 
 .photoblock2 {
   padding-top: 20px;
+  margin-bottom: 40px;
+
 }
 
-.information {
+.photoblock {
+  margin-top: 40px;
+}
+
+#information {
   text-align: center;
   max-width: 950px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.informationlogo article{
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: rgba(255, 255, 255, 0.733);
+#information h2 {
+  font-weight: bold;
 }
+
+.informationlogo article{
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.733);
+  border:5px 	
+  groove black;
+}
+
 
 .informationlogo {
   text-align: center;
@@ -94,16 +135,16 @@ header nav .menu a {
   display: block;
   font-size: 16px;
   font-weight: bold;
-  color: #ffffff;
+  color:rgb(105, 105, 105);
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   text-decoration: unset;
 }
 
 
 .clock {
-  color:#ffffff;
-  border:#ffffff;
+  color:rgb(105, 105, 105);
+  border:rgb(105, 105, 105);
   
 }
 
@@ -184,10 +225,14 @@ font-family: 'Marck Script', cursive;
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-   
+ 
   }
-.taste img {
+.zoom {
   box-shadow: 0px 0px 20px #faed27;
+  transition: 1s;
+}
+.zoom:hover {
+  transform: scale(1.3);
 }
 .video {
   width: 100%;
