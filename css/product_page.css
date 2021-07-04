@@ -31,8 +31,6 @@ header img {
   /* z-index: 100; */
 }
 
-/* todo: fix menu blinking when page is loaded in mobile version */
-
 .menu {
   text-align: center;
   position: fixed;
@@ -141,12 +139,14 @@ main > div {
 @media (min-width: 767px) {
   main > div {
     display: grid;
+    grid-column-gap: 30px;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 main img {
-  width: 100%
+  background-color: white;
+  width: 100%;
 }
 
 .in-stock {
@@ -157,8 +157,18 @@ main img {
   color: orange;
 }
 
-h2, #price {
+main h2, #price {
   font-weight: bold;
+}
+
+main form button {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+main input {
+  margin-top: 5px;
+  width: 150px !important;
 }
 
 footer {
