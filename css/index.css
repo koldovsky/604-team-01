@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap");
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 :root {
   font-family: "Secular One", sans-serif;
   --dark-grey: #676767; 
@@ -147,15 +146,21 @@ body {
 .info .buttons {
   display: flex;
   justify-content: space-around;
-  
 }
+
 .info button:hover {
-  box-shadow: 0px 0px 20px #734d26;
+  box-shadow: 0px 0px 20px #734d26;  
 }
 .info h2 {
   color: #734d26;
+  font-family: 'Marck Script', cursive;
+  font-size: 50px;
 }
-
+.info h3:hover {
+color: #734d26;
+font-size: 30px;
+font-family: 'Marck Script', cursive;
+}
 .info .info-one {
   float: left;
   width: 70px;
@@ -179,6 +184,7 @@ body {
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+   
   }
 .taste img {
   box-shadow: 0px 0px 20px #faed27;
@@ -220,7 +226,7 @@ body {
 .gallary_item {
   position: relative;
   width: 300px;
-  height: 250px;
+  height: 300px;
   background-color: #ffffff;
   border: solid #dab38b;
   box-shadow: 0px 0px 20px #faed27;
@@ -231,17 +237,80 @@ body {
   height: auto;
 }
 .gallary_item .text .title {
-  color: #111;
+  color: #734d26;
+  font-size: 30px;
   text-align: center;
-}
+  font-family: 'Marck Script', cursive;
+  }
 .gallary_item .text p {
+  text-align: center;
   margin: 20px 0;
 }
-
-.products-img {
-  width: 200px;
-  box-shadow: 0px 0px 20px #FF4500;
+.gallary_item .b1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
+.gallary_item .b2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.gallary_item .b3 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.products article {
+  border: 1px solid var(--main-color);
+  padding: 5px;
+  box-shadow: 0px 0px 20px #734d26;
+  margin: 30px;
+  text-align: center;
+  transition: 1s;
+    }
+.products article:hover {
+transform: scale(1.1);
+}
+.products article img {
+  display: block;
+  width: 100%;
+}
+
+.products article .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.buttons-sort {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 560px) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+}
+
+@media (min-width: 660px) {
+  .products {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+  justify-content: space-around;
+  }
+}
+
+@media (min-width: 980px) {
+  .products {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
 
 .coffee-category {
   color: #ffd832;
