@@ -140,7 +140,7 @@ footer {
   text-align: center;
 }
 
-footer > :first-child {
+footer > div:first-child {
   background-color: rgb(222, 213, 200);
   padding-top: 4vh;
 }
@@ -149,7 +149,7 @@ footer > div > a > img {
   width: 90px;
 }
 
-footer div p {
+footer > div:first-child p {
   color: rgb(170, 155, 143);
   font-weight: bold;
 }
@@ -174,7 +174,7 @@ footer a {
   text-decoration: none;
 }
 
-footer > p {
+footer > div:last-child {
   padding-bottom: 15px;
   padding-top: 15px;
 }
