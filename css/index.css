@@ -361,8 +361,13 @@ transform: scale(1.1);
   color: #ffd832;
 }
 
+.steps-descr{
+  display: flex;
+}
+
 .coffee-descr {
-  background-color: white;
+  /* background-color: white;*/
+  display: flex;
 }
 
 element.style {
