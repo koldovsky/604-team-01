@@ -22,13 +22,13 @@ header img {
 }
 
 .ham {
+  background: none;
+  border: none;
   cursor: pointer;
-  /*height: 1rem;*/
-  /*position: absolute;*/
-  /*right: 1rem;*/
-  /*top: 1rem;*/
-  /*width: 1rem;*/
-  /* z-index: 100; */
+}
+
+.material-icons {
+  font-size: xx-large;
 }
 
 .menu {
@@ -74,6 +74,7 @@ header nav a {
 
 header a:hover, footer a:hover {
   color: var(--anchor-hover);
+  text-decoration: underline;
 }
 
 header .menu h1 {
@@ -125,7 +126,7 @@ header button {
 }
 
 main {
-  background-image: url("../img/product-page/background-dark.jpg");
+  background-image: url("../img/shop/background-dark.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -198,7 +199,12 @@ footer nav {
 @media (min-width: 992px) {
   footer nav {
     flex-direction: unset;
-    justify-content: space-evenly;
+    justify-content: center;
+  }
+
+  footer nav a {
+    margin-left: 18px;
+    margin-right: 18px;
   }
 }
 
@@ -208,6 +214,25 @@ footer a {
   margin-bottom: 10px;
   margin-top: 10px;
   text-decoration: none;
+}
+
+footer div div {
+  display: flex;
+  justify-content: center;
+}
+
+footer div div a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer div div a * {
+  height: 33px;
+  width: 33px;
+}
+
+footer div div a :last-child {
+  display: none;
 }
 
 footer > div:last-child {
