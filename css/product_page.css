@@ -74,6 +74,7 @@ header nav a {
 
 header a:hover, footer a:hover {
   color: var(--anchor-hover);
+  text-decoration: underline;
 }
 
 header .menu h1 {
@@ -125,7 +126,7 @@ header button {
 }
 
 main {
-  background-image: url("../img/product-page/background-dark.jpg");
+  background-image: url("../img/shop/background-dark.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
