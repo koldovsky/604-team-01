@@ -364,10 +364,26 @@ transform: scale(1.1);
 }
 
 .App{
+  margin-left: 37%;
   display: flex;
-  text-align: center;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+.app-o{
+  background: url(../img/bcr-pht.jpg);
   padding-bottom: 2vh;
   padding-top: 2vh;
+}
+.nme{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.steps{
+  padding-bottom: 5vh;
+  padding-top: 5vh;
 }
 
 
@@ -393,6 +409,7 @@ transform: scale(1.1);
   box-align: center;
   padding-bottom: 2vh;
   padding-top: 2vh;
+  margin-left: 44%;
 }
 
 
