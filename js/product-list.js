@@ -36,8 +36,8 @@ function renderProducts(products, sortDirection) {
                 <h3>${product.title}</h3>
                 <p>${product.description}</p>
                 <div class="buttons">
-                    <button class="button card-button">Info</button>
-                    <button class="button card-button">Buy - $${product.price}</button>
+                    <a href="#information" class="button card-button">Info</a>
+                    <a href="" class="button card-button">Buy - $${product.price}</a>
                 </div>
         </article>`;
   }

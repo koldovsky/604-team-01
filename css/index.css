@@ -225,8 +225,8 @@ font-family: 'Marck Script', cursive;
   background-image: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
- 
-  }
+  background-attachment: fixed;
+}
 .zoom {
   box-shadow: 0px 0px 20px #faed27;
   transition: 1s;
@@ -248,6 +248,7 @@ font-family: 'Marck Script', cursive;
   background: url(../img/wood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .gallary h1 {
   color: #ffffff;
@@ -355,15 +356,63 @@ transform: scale(1.1);
   }
 }
 
-
+.main-descr{
+  text-align: center;
+}
 
 .coffee-category {
   color: #ffd832;
 }
 
-.coffee-descr {
-  background-color: white;
+.App{
+  margin-left: 37%;
+  display: flex;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
 }
+
+.app-o{
+  background: url(../img/bcr-pht.jpg);
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+.nme{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.steps{
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+
+.steps-descr{
+  display: flex;
+  text-align: center;
+}
+
+.coffee-descr {
+  display: flex;
+  text-align: center;
+}
+
+.prod{
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  padding-left: 2vh;
+  padding-right: 16vh;
+}
+
+.spec{
+  display: flex;
+  box-align: center;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  margin-left: 44%;
+}
+
 
 element.style {
   width: 360px;
