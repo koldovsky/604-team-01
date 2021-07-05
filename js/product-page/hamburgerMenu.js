@@ -1,3 +1,4 @@
+/* by Bohdan Bohiv */
 const menu = document.querySelector('.menu');
 const ham = document.querySelectorAll('.ham');
 const menuIcon = document.querySelector('.menuIcon');
