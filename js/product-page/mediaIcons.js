@@ -1,3 +1,4 @@
+/* by Bohdan Bohiv */
 const pairs = document.querySelectorAll('footer div div a');
 const icons = document.querySelectorAll('footer div div a :first-child');
 const iconsInverted = document.querySelectorAll('footer div div a :last-child');
