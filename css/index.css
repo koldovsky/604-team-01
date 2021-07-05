@@ -356,15 +356,46 @@ transform: scale(1.1);
   }
 }
 
-
+.main-descr{
+  text-align: center;
+}
 
 .coffee-category {
   color: #ffd832;
 }
 
-.coffee-descr {
-  background-color: white;
+.App{
+  display: flex;
+  text-align: center;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
+
+
+.steps-descr{
+  display: flex;
+  text-align: center;
+}
+
+.coffee-descr {
+  display: flex;
+  text-align: center;
+}
+
+.prod{
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  padding-left: 2vh;
+  padding-right: 16vh;
+}
+
+.spec{
+  display: flex;
+  box-align: center;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
 
 element.style {
   width: 360px;
