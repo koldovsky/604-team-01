@@ -8,6 +8,9 @@ ham[0].addEventListener('click', toggleMenu);
 ham[1].addEventListener('click', toggleMenu);
 
 function toggleMenu() {
+  if (!menu.classList.contains('anime')) {
+    menu.classList.add('anime');
+  }
   if (menu.classList.contains('showMenu')) {
     closeMenu();
   } else {
