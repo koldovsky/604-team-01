@@ -4,21 +4,21 @@ const productsJson = `
         "id" : "1",
         "title": "Medium",
         "description": "MEDIUM ROAST COFFEE",
-        "price": 16.00,
+        "price": 10.00,
         "imgUrl": "img/medium.png"
     },
     {
         "id" : "2",
         "title": "Dark",
         "description": "DARK ROAST COFFEE",
-        "price": 18.00,
+        "price": 11.00,
         "imgUrl": "img/dark.png" 
     },
     {
         "id" : "3",
         "title": "Decaf",
         "description": "DECAF COFFEE",
-        "price": 20.00,
+        "price": 15.00,
         "imgUrl": "img/decaf.png" 
     }
 ]
@@ -37,7 +37,7 @@ function renderProducts(products, sortDirection) {
                 <p>${product.description}</p>
                 <div class="buttons">
                     <a href="#information" class="button card-button">Info</a>
-                    <a href="" class="button card-button">Buy - $${product.price}</a>
+                    <a href="#store" class="button card-button">Buy - $${product.price}</a>
                 </div>
         </article>`;
   }
