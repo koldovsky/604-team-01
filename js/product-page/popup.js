@@ -1,12 +1,10 @@
 /* by Bohdan Bohiv */
-const smallImg = document.querySelector('main > div:first-child > img')
 const popup = document.querySelector('.popup');
-const xPopup = document.querySelector('.popup .xPopup');
 
-smallImg.addEventListener('click', () => {
+document.querySelector('main > div:first-child > img').addEventListener('click', () => {
   popup.style.display = 'unset';
 });
 
-xPopup.addEventListener('click', () => {
+document.querySelector('.popup .xPopup').addEventListener('click', () => {
   popup.style.removeProperty('display');
 });
