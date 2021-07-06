@@ -1,0 +1,83 @@
+[
+  {
+    "id": "0",
+    "title": "Dark Roast Coffee",
+    "img": "../img/shop/products/dark-drip.png",
+    "secondName": "DRIP GRIND",
+    "price": 11,
+    "quantity": 4,
+    "description": "This coffee is for people who truly appreciate those classic flavors that only a dark roast can give you. The darker roast brings out notes of molasses, spice and earthy. Enjoy!"
+  },
+  {
+    "id": "1",
+    "title": "Dark Roast Coffee",
+    "img": "../img/shop/products/dark-percolator.png",
+    "secondName": "PERCOLATOR",
+    "price": 89,
+    "quantity": 100,
+    "description": "This coffee is for people who truly appreciate those classic flavors that only a dark roast can give you. The darker roast brings out notes of molasses, spice and earthy."
+  },
+  {
+    "id": "2",
+    "title": "Dark Roast Coffee",
+    "img": "../img/shop/products/dark-whole.png",
+    "secondName": "WHOLE BEAN",
+    "price": 60,
+    "quantity": 0,
+    "description": "This coffee is for people who truly appreciate those classic flavors that only a dark roast can give you. The darker roast brings out notes of molasses, spice and earthy."
+  },
+  {
+    "id": "3",
+    "title": "Decaf Coffee",
+    "img": "../img/shop/products/decaf-drip.png",
+    "secondName": "DRIP GRIND",
+    "price": 12,
+    "quantity": 1000,
+    "description": "Don’t want to be putting unnecessary chemicals in your coffee? Then make sure you drink this decaf coffee! It utilizes a water-based process to make certain your coffee is not only decaffeinated but tasty! Our decaf has flavors of spice and syrup and finishes with a tasty candied apple."
+  },
+  {
+    "id": "4",
+    "title": "Decaf Coffee",
+    "img": "../img/shop/products/decaf-percolator.png",
+    "secondName": "PERCOLATOR",
+    "price": 99.9,
+    "quantity": 5,
+    "description": "Don’t want to be putting unnecessary chemicals in your coffee? Then make sure you drink this decaf coffee! It utilizes a water-based process to make certain your coffee is not only decaffeinated but tasty! Our decaf has flavors of spice and syrup and finishes with a tasty candied apple."
+  },
+  {
+    "id": "5",
+    "title": "Decaf Coffee",
+    "img": "../img/shop/products/decaf-whole.png",
+    "secondName": "WHOLE BEAN",
+    "price": 65,
+    "quantity": 0,
+    "description": "Don’t want to be putting unnecessary chemicals in your coffee? Then make sure you drink this decaf coffee! It utilizes a water-based process to make certain your coffee is not only decaffeinated but tasty! Our decaf has flavors of spice and syrup and finishes with a tasty candied apple."
+  },
+  {
+    "id": "6",
+    "title": "Medium Roast Coffee",
+    "img": "../img/shop/products/medium-drip.png",
+    "secondName": "DRIP GRIND",
+    "price": 11,
+    "quantity": 10,
+    "description": "This medium-roasted coffee is a great way to start your day. It is wonderfully balanced and, if you really try, you just might be able to pick up on the delicious notes of citrus, caramel, and nougat."
+  },
+  {
+    "id": "7",
+    "title": "Medium Roast Coffee",
+    "img": "../img/shop/products/medium-percolator.png",
+    "secondName": "PERCOLATOR",
+    "price": 89,
+    "quantity": 3,
+    "description": "This medium-roasted coffee is a great way to start your day. It is wonderfully balanced and, if you really try, you just might be able to pick up on the delicious notes of citrus, caramel, and nougat."
+  },
+  {
+    "id": "8",
+    "title": "Medium Roast Coffee",
+    "img": "../img/shop/products/medium-whole.png",
+    "secondName": "WHOLE BEAN",
+    "price": 60,
+    "quantity": 300,
+    "description": "This medium-roasted coffee is a great way to start your day. It is wonderfully balanced and, if you really try, you just might be able to pick up on the delicious notes of citrus, caramel, and nougat."
+  }
+]

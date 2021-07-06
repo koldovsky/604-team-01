@@ -41,8 +41,11 @@ header img {
   height: 100vh;
   background: var(--grey-background);
   transform: translateY(-100%);
-  transition: transform 0.2s;
   padding-top: 30px;
+}
+
+.anime {
+  transition: transform 0.2s;
 }
 
 .showMenu {
@@ -136,7 +139,8 @@ main > div:first-child {
   padding-top: 4%;
 }
 
-@media (min-width: 767px) {
+/*@media (min-width: 767px) {*/
+@media (min-width: 800px) {
   main > div:first-child {
     display: grid;
     grid-column-gap: 30px;
@@ -144,7 +148,7 @@ main > div:first-child {
   }
 }
 
-main img {
+main > div.container > img {
   background-color: white;
   cursor: pointer;
   width: 100%;
@@ -182,6 +186,7 @@ main .popup {
   width: 100%;
   height: 100vh;
   background-color: white;
+  text-align: center;
 }
 
 main .popup div {
